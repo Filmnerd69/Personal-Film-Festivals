@@ -32,19 +32,9 @@ h2 {
     margin-bottom: 10px;
 }
 
-/* Carousel Styling (Placeholder) */
-.carousel {
-    /* Add styles for the image carousel */
-}
-
-/* Schedule Section Styling */
-.schedule {
-    background-color: #f9f9f9;
-    padding: 20px;
-    margin-top: 20px;
-}
-
-/* Films Section Styling */
-.films {
-    margin-top: 20px;
+/* Title Styling */
+header h1 {
+    font-size: 36px; /* Adjust the font size as needed */
+    font-weight: bold;
+    text-transform: uppercase;
 }
