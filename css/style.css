@@ -1,56 +1,50 @@
-/* Reset default browser styles */
-* {
+/* style.css */
+
+/* Resetting default margin and padding */
+body, h1, h2, section {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
-/* Body styles */
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #f4f4f4;
-    color: #333;
-}
-
-/* Container styles */
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-}
-
-/* Header styles */
+/* Header Styling */
 header {
     background-color: #333;
-    color: #fff;
-    padding: 20px 0;
-}
-
-header h1 {
-    font-size: 32px;
+    color: white;
+    padding: 20px;
     text-align: center;
 }
 
-/* Main content styles */
+/* Main Content Styling */
 main {
-    padding: 20px 0;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
 }
 
-/* Footer styles */
-footer {
-    background-color: #333;
-    color: #fff;
-    padding: 20px 0;
-    text-align: center;
+/* Section Styling */
+section {
+    margin-top: 20px;
 }
 
-/* Film Frames styles */
-#film-frames {
-    /* Add styles for film frames */
+/* Section Title Styling */
+h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
-/* Monthly Film Showcase styles */
-#monthly-showcase {
-    /* Add styles for monthly film showcase */
+/* Carousel Styling (Placeholder) */
+.carousel {
+    /* Add styles for the image carousel */
+}
+
+/* Schedule Section Styling */
+.schedule {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* Films Section Styling */
+.films {
+    margin-top: 20px;
 }
